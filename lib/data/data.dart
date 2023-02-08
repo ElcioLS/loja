@@ -28,18 +28,76 @@ class Category {
 
 final categories = [
   Category(
-    categoryName: 'Camisetas',
+    categoryName: 'Brasileiros',
     productCount: '219',
     thumbnailImage:
-        'https://images.unsplash.com/photo-1576871337622-98d48d1cf531?ix',
+        'https://s3.amazonaws.com/img.iluria.com/product/5676C3/DDF770/450xN.jpg',
+  ),
+  Category(
+    categoryName: 'Americanos',
+    productCount: '219',
+    thumbnailImage:
+        'https://s3.amazonaws.com/img.iluria.com/product/5676C2/1778F40/450xN.jpg',
+  ),
+  Category(
+    categoryName: 'Europeus',
+    productCount: '219',
+    thumbnailImage:
+        'https://s3.amazonaws.com/img.iluria.com/product/5676C5/16B05A2/450xN.jpg',
+  ),
+  Category(
+    categoryName: 'Australianos',
+    productCount: '219',
+    thumbnailImage:
+        'https://s3.amazonaws.com/img.iluria.com/product/5676D0/130CB9C/450xN.jpg',
   ),
 ];
 
 final products = [
   Product(
-    productName: 'CAMISETA VANCOUVER',
+    productName: 'BIQUINI ALICE',
     productImageUrl:
-        'https://images.unsplash.com/photo-1576871337622-98d48d1cf531?ix',
+        'https://s3.amazonaws.com/img.iluria.com/product/5676C3/DDF770/450xN.jpg',
+    currentPrice: '500',
+    oldPrice: '700',
+    isLiked: true,
+  ),
+  Product(
+    productName: 'BIQUINI ISABELLA',
+    productImageUrl:
+        'https://s3.amazonaws.com/img.iluria.com/product/5676B6/16EDC09/450xN.jpg',
+    currentPrice: '500',
+    oldPrice: '700',
+    isLiked: true,
+  ),
+  Product(
+    productName: 'BIQUINI SAMANTHA',
+    productImageUrl:
+        'https://s3.amazonaws.com/img.iluria.com/product/5675D8/15EE56C/450xN.jpg',
+    currentPrice: '500',
+    oldPrice: '700',
+    isLiked: true,
+  ),
+  Product(
+    productName: 'BIQUINI YASMIM',
+    productImageUrl:
+        'https://s3.amazonaws.com/img.iluria.com/product/5676C5/16B05A4/450xN.jpg',
+    currentPrice: '500',
+    oldPrice: '700',
+    isLiked: true,
+  ),
+  Product(
+    productName: 'BIQUINI VANUZA',
+    productImageUrl:
+        'https://s3.amazonaws.com/img.iluria.com/product/5676CF/12CC20F/450xN.jpg',
+    currentPrice: '500',
+    oldPrice: '700',
+    isLiked: true,
+  ),
+  Product(
+    productName: 'BIQUINI ZÉLIA',
+    productImageUrl:
+        'https://s3.amazonaws.com/img.iluria.com/product/5676D2/13CAD39/450xN.jpg',
     currentPrice: '500',
     oldPrice: '700',
     isLiked: true,
